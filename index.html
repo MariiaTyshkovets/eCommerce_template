@@ -9,82 +9,101 @@
     <title>eCommerce_template</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="header">
-                <nav>
-                    <div class="connection">
-                        Chat with us
-                        <a href="tel:+420336775664">+420 336 775 664</a>
-                        <a href=" info@freshnesecom.com">
-                            info@freshnesecom.com</a>
-                    </div>
-                    <div class="about">
-                        <a href="#">Blog</a>
-                        <a href="#">About Us</a>
-                        <a href="#">Careers</a>
-                    </div>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header-top">
+                <div class="contacts">
+                    <span>Chat with us</span>
+                    <a class="none-decorated" href="tel:+420 336 775 664">+420 336 775 664</a>
+                    <a class="none-decorated" href="mailto:info@freshnesecom.com">info@freshnesecom.com</a>
+                </div>
+                <nav class="nav">
+                    <ul>
+                        <li><a class="none-decorated" href="#">Blog</a></li>
+                        <li><a class="none-decorated" href="#">About Us</a></li>
+                        <li><a class="none-decorated" href="#">Careers</a></li>
+                    </ul>
                 </nav>
-                
-                <main>
-                    <img src="icon/Freshnesecom.png" alt=""> 
-                    <div class="search">
-                        <select name="list" id="#">
-                            <option>All categories</option>
-                            <option>Пункт 1</option>
-                            <option>Пункт 2</option>
-                        </select>
-                        <input >
-                    </div>
-                    <div class="main_icon">
-                        <a href="#"><img src="icon/ic-actions-user.png" alt=""></a>
-                        <a href="#"><img src="icon/ic-ecommerce-basket.png" alt=""></a>
-                    </div>
-                </main>
             </div>
-        </div>
-    </header>
-    <main class="main">
-        <section class="section">
-            <div class="products">
-                <h3>Best selling products</h3>
+            <div class="header-medium">
+                <div class="logo">
+                    <img src="icon/Freshnesecom.png" alt="Freshnesecom logo">
+                </div>
+                <div class="search">
+                    <select name="search-list">
+                        <option>All categories</option>
+                        <option>Пункт 1</option>
+                        <option>Пункт 2</option>
+                    </select>
+                    <input type="search" placeholder="Search Products, categories ..." id="search">
+                    <label for="search"><img src="img/Layer.png" alt="Layer"></label>
+                </div>
+                <div class="main-icon">
+                    <a href="#"><img src="icon/ic-actions-user.png" alt="actions user"></a>
+                    <a href="#"><img src="icon/ic-ecommerce-basket.png" alt="ecommerce basket"></a>
+                </div>
+            </div>
+            <div class="menu">
                 <ul>
-                    <li>Kitchen</li>
-                    <li>Meat and fish</li>
-                    <li>Special nutrition</li>
-                    <li>Pharmacy</li>
-                    <li>Baby</li>
+                    <li><a class="none-decorated" href="#">Bakery &#11167;</a></li>
+                    <li><a class="none-decorated" href="#">Fruit and vegetables &#11167;</a></li>
+                    <li><a class="none-decorated" href="#">Meat and fish &#11167;</a></li>
+                    <li><a class="none-decorated" href="#">Drinks &#11167;</a></li>
+                    <li><a class="none-decorated" href="#">Kitchen &#11167;</a></li>
+                    <li><a class="none-decorated" href="#">Special nutrition &#11167;</a></li>
+                    <li><a class="none-decorated" href="#">Baby &#11167;</a></li>
+                    <li><a class="none-decorated" href="#">Pharmacy &#11167;</a></li>
                 </ul>
-                <button type="submit">More products ></button>
             </div>
-            <div class="card">
-                <img src="img/Rectangle 26.png" alt="Rectangle">
-                <h4>Product Title</h4>
-                <p>Space for a small product description</p>
-                <div class="price">    
-                    <p>1.48 USD</p>
-                    <button>Buy now</button>
+        </header>
+        <main class="main">
+            <section class="section">
+                <div class="products">
+                    <h3>Best selling products</h3>
+                    <ul>
+                        <li><a href="#">Kitchen</a></li>
+                        <li><a href="#">Meat and fish</a></li>
+                        <li><a href="#">Special nutrition</a></li>
+                        <li><a href="#">Pharmacy</a></li>
+                        <li><a href="#">Baby</a></li>
+                    </ul>
+                    <button type="submit" class="btn btn-white">More products &#8250;</button>
                 </div>
-            </div>
-            <div class="card">
-                <img src="img/Rectangle 26.png" alt="Rectangle">
-                <h4>Product Title</h4>
-                <p>Space for a small product description</p>
-                <div class="price">    
-                    <p>1.48 USD<br><span>48.56</span></p>
-                    <button>Buy now</button>
+                <div class="cards">
+                    <div class="card">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="price">    
+                            <p>1.48 USD</p>
+                            <button class="btn btn-green">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="price">    
+                            <div>
+                                <p>1.48 USD</p><span>48.56</span>
+                            </div>
+                            <button class="btn btn-green">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="price">    
+                            <div>
+                                <p>1.48 USD</p><span>48.56</span>
+                            </div>
+                            <button class="btn btn-green">Buy now</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <img src="img/Rectangle 26.png" alt="Rectangle">
-                <h4>Product Title</h4>
-                <p>Space for a small product description</p>
-                <div class="price">    
-                    <p>1.48 USD<br><span>48.56</span></p> 
-                    <button>Buy now</button>
-                </div>
-            </div>
-        </section>
-    </main>
+            </section>
+        </main>
+    </div>
   </body>
   </html>
