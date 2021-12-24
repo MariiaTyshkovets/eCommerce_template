@@ -181,7 +181,7 @@ body {
     background-color: #F4F8EC;
     background-image: url("../img/picture-banner.png");
     border-radius: 12px;
-    width: 380px;
+    width: 420px;
     height: 290px;
     padding: 48px 33px 32px;
     display: flex;
@@ -223,11 +223,11 @@ body {
 }
 
 .cards__item {
-    width: 240px;
+    width: 260px;
     padding: 16px;
     border: 1px solid #D1D1D1;
     border-radius: 12px;
-    margin: 0 10px 20px;
+    margin: 0 16px 20px;
     position: relative;
 }
 
@@ -319,7 +319,7 @@ body {
 .headline-cards {
     padding-top: 33px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 228px);
+    grid-template-columns: repeat(auto-fill, 260px);
     gap: 32px;
 }
 
