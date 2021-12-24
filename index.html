@@ -12,52 +12,115 @@
     <div class="wrapper">
         <header class="header">
             <div class="header-top">
-                <div class="contacts">
+                <div class="header-top__contacts">
                     <span>Chat with us</span>
                     <a class="none-decorated" href="tel:+420 336 775 664">+420 336 775 664</a>
                     <a class="none-decorated" href="mailto:info@freshnesecom.com">info@freshnesecom.com</a>
                 </div>
-                <nav class="nav">
-                    <ul>
-                        <li><a class="none-decorated" href="#">Blog</a></li>
-                        <li><a class="none-decorated" href="#">About Us</a></li>
-                        <li><a class="none-decorated" href="#">Careers</a></li>
+                <nav class="header-top__nav">
+                    <ul class="navigation">
+                        <li class="navigation__item"><a class="none-decorated" href="#">Blog</a></li>
+                        <li class="navigation__item"><a class="none-decorated" href="#">About Us</a></li>
+                        <li class="navigation__item"><a class="none-decorated" href="#">Careers</a></li>
                     </ul>
                 </nav>
             </div>
             <div class="header-medium">
-                <div class="logo">
-                    <img src="icon/Freshnesecom.png" alt="Freshnesecom logo">
+                <div class="header-medium__logo">
+                    <img src="img/freshnesecom.png" alt="Freshnesecom logo">
                 </div>
-                <div class="search">
-                    <select name="search-list">
-                        <option>All categories</option>
-                        <option>Пункт 1</option>
-                        <option>Пункт 2</option>
+                <div class="header-medium__search">
+                    <select class="search-select">
+                        <option class="search-select__item">All categories &nbsp</option>
+                        <option class="search-select__item">Пункт 1</option>
+                        <option class="search-select__item">Пункт 2</option>
                     </select>
-                    <input type="search" placeholder="Search Products, categories ..." id="search">
-                    <label for="search"><img src="img/Layer.png" alt="Layer"></label>
+                    <form action="#" method="get" class="search-form">
+                        <input type="search" placeholder="Search Products, categories ..." id="search">
+                        <label for="search"><img src="img/Layer.png" alt="Layer"></label>
+                    </form>
                 </div>
-                <div class="main-icon">
+                <div class="header-medium__icon">
                     <a href="#"><img src="icon/ic-actions-user.png" alt="actions user"></a>
                     <a href="#"><img src="icon/ic-ecommerce-basket.png" alt="ecommerce basket"></a>
                 </div>
             </div>
-            <div class="menu">
-                <ul>
-                    <li><a class="none-decorated" href="#">Bakery &#11167;</a></li>
-                    <li><a class="none-decorated" href="#">Fruit and vegetables &#11167;</a></li>
-                    <li><a class="none-decorated" href="#">Meat and fish &#11167;</a></li>
-                    <li><a class="none-decorated" href="#">Drinks &#11167;</a></li>
-                    <li><a class="none-decorated" href="#">Kitchen &#11167;</a></li>
-                    <li><a class="none-decorated" href="#">Special nutrition &#11167;</a></li>
-                    <li><a class="none-decorated" href="#">Baby &#11167;</a></li>
-                    <li><a class="none-decorated" href="#">Pharmacy &#11167;</a></li>
-                </ul>
-            </div>
         </header>
         <main class="main">
-            <section class="section">
+            <div class="main__menu">
+                <ul class="menu-list">
+                    <li class="menu-list__item">
+                        <select name="bakery" id="bakery">
+                            <option value="Bakery"><a class="none-decorated" href="#">Bakery</a></option>
+                        </select>
+                    </li>
+                    <li class="menu-list__item">
+                        <select name="fruit" id="fruit">
+                            <option value="Fruit and vegetables"><a class="none-decorated" href="#">Fruit and vegetables</a></option>
+                        </select>
+                    </li>
+                    <li class="menu-list__item">
+                        <select name="meat" id="meat">
+                            <option value="Meat and fish"><a class="none-decorated" href="#">Meat and fish</a></option>
+                        </select>
+                    </li>
+                    <li class="menu-list__item">
+                        <select name="drinks" id="drinks">
+                            <option value="Drinks"><a class="none-decorated" href="#">Drinks</a></option>
+                        </select>
+                    </li>
+                    <li class="menu-list__item">
+                        <select name="kitchen" id="kitchen">
+                            <option value="Kitchen"><a class="none-decorated" href="#">Kitchen</a></option>
+                        </select>
+                    </li>
+                    <li class="menu-list__item">
+                        <select name="nutrition" id="nutrition">
+                            <option value="Special nutrition"><a class="none-decorated" href="#">Special nutrition</a></option>
+                        </select>
+                    </li>
+                    <li class="menu-list__item">
+                        <select name="baby" id="baby">
+                            <option value="Baby"><a class="none-decorated" href="#">Baby</a></option>
+                        </select>
+                    </li>
+                    <li class="menu-list__item">
+                        <select name="pharmacy" id="pharmacy">
+                            <option value="Pharmacy"><a class="none-decorated" href="#">Pharmacy</a></option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            <section class="main__category">
+                <div class="menu-category">
+                    <h3>Category menu</h3>
+                    <ul>
+                        <li><a href="#">Bakery</a></li>
+                        <li><a href="#">Fruit and vegetables</a></li>
+                        <li><a href="#">Meat and fish</a></li>
+                        <li><a href="#">Drinks</a></li>
+                        <li><a href="#">Kitchen</a></li>
+                    </ul>
+                    <button type="submit" class="btn menu-category__btn--white">More categories &#8250;</button>    
+                </div>
+                <div class="banner">
+                    <div class="banner__item">
+                        <div>
+                            <span>Banner subfocus</span>
+                            <h2>Space for heading</h2>
+                        </div>
+                        <button type="submit" class="btn banner__btn">Read recepies&nbsp<img src="icon/ic-chevron-right.png" alt="icon-chevron-right"></button>
+                    </div>
+                    <div class="banner__item">
+                        <div>
+                            <span>Banner subfocus</span>
+                            <h2>Space for heading</h2>
+                        </div>
+                        <button type="submit" class="btn banner__btn">Read recepies&nbsp<img src="icon/ic-chevron-right.png" alt="icon-chevron-right"></button>
+                    </div>
+                </div>
+            </section>
+            <section class="main__section">
                 <div class="products">
                     <h3>Best selling products</h3>
                     <ul>
@@ -67,38 +130,145 @@
                         <li><a href="#">Pharmacy</a></li>
                         <li><a href="#">Baby</a></li>
                     </ul>
-                    <button type="submit" class="btn btn-white">More products &#8250;</button>
+                    <button type="submit" class="btn products__btn--white">More products &#8250;</button>
                 </div>
                 <div class="cards">
-                    <div class="card">
+                    <div class="cards__item">
                         <img src="img/Rectangle 26.png" alt="Rectangle">
                         <h4>Product Title</h4>
                         <p>Space for a small product description</p>
                         <div class="price">    
                             <p>1.48 USD</p>
-                            <button class="btn btn-green">Buy now</button>
+                            <button class="btn price__btn-green">Buy now</button>
                         </div>
                     </div>
-                    <div class="card">
+                    <div class="cards__item">
                         <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="percentage-discount">
+                            <span>- 36 %</span>
+                        </div>
+                        <div class="price">    
+                            <div>
+                                <p>1.48 USD</p><span>48.56</span>
+                            </div>
+                            <button class="btn price__btn-green">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <div class="percentage-discount">
+                            <span>- 36 %</span>
+                        </div>
                         <h4>Product Title</h4>
                         <p>Space for a small product description</p>
                         <div class="price">    
                             <div>
                                 <p>1.48 USD</p><span>48.56</span>
                             </div>
-                            <button class="btn btn-green">Buy now</button>
+                            <button class="btn price__btn-green">Buy now</button>
                         </div>
                     </div>
-                    <div class="card">
+                </div>
+            </section>
+            <section class="main__section">
+                <div class="products">
+                    <h3>Best from Farmers</h3>
+                    <ul>
+                        <li><a href="#">Carrots</a></li>
+                        <li><a href="#">Tomatoes</a></li>
+                        <li><a href="#">Potatoes</a></li>
+                        <li><a href="#">Chicken</a></li>
+                        <li><a href="#">Pork</a></li>
+                    </ul>
+                    <button type="submit" class="btn products__btn--white">More products &#8250;</button>
+                </div>
+                <div class="cards">
+                    <div class="cards__item">
                         <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="price">    
+                            <p>1.48 USD</p>
+                            <button class="btn price__btn-green">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="percentage-discount">
+                            <span>- 36 %</span>
+                        </div>
+                        <div class="price">    
+                            <div>
+                                <p>1.48 USD</p><span>48.56</span>
+                            </div>
+                            <button class="btn price__btn-green">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <div class="percentage-discount">
+                            <span>- 36 %</span>
+                        </div>
                         <h4>Product Title</h4>
                         <p>Space for a small product description</p>
                         <div class="price">    
                             <div>
                                 <p>1.48 USD</p><span>48.56</span>
                             </div>
-                            <button class="btn btn-green">Buy now</button>
+                            <button class="btn price__btn-green">Buy now</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__headline">
+                <div class="headline-header">
+                    <h3>Section Headline</h3>
+                    <button type="submit" class="btn headline__btn">Button&nbsp<img src="icon/ic-chevron-right.png" alt="icon-chevron-right"></button>
+                </div>
+                <div class="headline-cards">
+                    <div class="cards__item">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="price">    
+                            <p>1.48 USD</p>
+                            <button class="btn price__btn-green">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="price">    
+                            <p>1.48 USD</p>
+                            <button class="btn price__btn-green">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <div class="percentage-discount">
+                            <span>- 36 %</span>
+                        </div>
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="price">    
+                            <div>
+                                <p>1.48 USD</p><span>48.56</span>
+                            </div>
+                            <button class="btn price__btn-green">Buy now</button>
+                        </div>
+                    </div>
+                    <div class="cards__item">
+                        <img src="img/Rectangle 26.png" alt="Rectangle">
+                        <h4>Product Title</h4>
+                        <p>Space for a small product description</p>
+                        <div class="price">    
+                            <p>1.48 USD</p>
+                            <button class="btn price__btn-green">Buy now</button>
                         </div>
                     </div>
                 </div>
