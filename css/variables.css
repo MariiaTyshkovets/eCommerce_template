@@ -1,0 +1,46 @@
+:root {
+    --primary-color: #151515;
+    --primary-color100: #575757;
+    --primary-color200: #A9A9A9;
+    --primary-color300: #D1D1D1;
+    --primary-color400: #EBEBEB;
+    --primary-color500: #F5F5F5;
+    --primary-color600: #F9F9F9;
+    --primery-color700: #ffffff;
+
+    --secondary-color: #6A983C;
+    --secondary-color100: #46760A;
+    --secondary-color200: #92C064;
+    --secondary-color300: #C8DEB3;
+    --secondary-color400: #F4F8EC;
+
+    --additional-color-brown: #D0A866;
+    --additional-color-brown100: #B28A48;
+    --additional-color-brown200: #ECD2A6;
+    --additional-color-brown300: #FAEDD8;
+    --additional-color-brown400: #FFF9F0;
+
+    --additional-color-red: #E5704B;
+    --additional-color-red100: #C7522D;
+    --additional-color-red200: #EB8D70;
+    --additional-color-red300: #F7C6B7;
+    --additional-color-red400: #FFF1ED;
+
+    --additional-color-blue: #37D0D6;
+    --additional-color-blue100: #19B2B8;
+    --additional-color-blue200: #7CD0D3;
+    --additional-color-blue300: #B9E6E8;
+    --additional-color-blue400: #ECF6F6;
+
+    --heading-1-size-default: 32px;
+    --heading-2-size-default: 26px;
+    --heading-3-size-default: 22px;
+    --heading-4-size-default: 18px;
+    --heading-5-size-default: 15px;
+    --heading-6-size-default: 12px;
+
+    --body-font-size-default: 14px;
+    --button-font-size-default: 15px;
+    --lead-font-size-default: 17px;
+    --caption-font-size-default: 12px;
+}
